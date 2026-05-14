@@ -13,7 +13,7 @@ AI PM Probe（AI PM 探针） 是一个基于AI大厂专家经验的产品能力
 
 > “The PM is now the 'Evaluation Designer' who ensures the optimization objective matches human intent.” — Andrej Karpathy, Founding Member of OpenAI
 
-AI 时代 PM 的核心竞争力已从定义“功能”转移到了可以定义“我们要去哪里”。能否设计出一套自带进化能力的评估体系（Evaluation-Driven Design），让产品在模型的不确定性中，通过不断的指标对齐实现价值突围。
+AI 时代 PM 的核心竞争力已从定义“功能”转移到了定义“我们要去哪里”。能否设计出一套自带进化能力的评估体系（Evaluation-Driven Design），让产品在模型的不确定性中，通过不断的指标对齐实现价值突围。
 
 因此对于产品从业者来说，能力要求的巨大变化，也带来了能力坐标系丢失。因此我们需要通过能力评估，对我们自己进行动态的能力画像，重建自己的能力发展坐标。
 
