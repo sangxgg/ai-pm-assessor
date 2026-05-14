@@ -1,17 +1,19 @@
 # 🩺 AI PM Probe
 
-> 不是题库，而是能力诊断。这是一个为 AI 时代产品经理设计的“问诊式”能力诊断Skill
+> 一个 “问诊式”产品能力诊断Skill。不是题库，而是能力诊断。
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Framework](https://img.shields.io/badge/Capability-3L8D-orange.svg)](#-评估框架)
 
-AI PM Probe 是一个基于AI大厂专家经验的“问诊式”产品能力评估Skill。它会像一位来自 OpenAI 、字节等AI大厂的产品专家，通过多轮、动态、具有压迫力的 Case 推演，探测你的能力边界，帮助你看清自己的能力画像，找到下一步成长路径。
+AI PM Probe（AI PM 探针） 是一个基于AI大厂专家经验的“问诊式”产品能力诊断Skill。他会像一位来自 OpenAI 、字节等AI大厂的产品专家，通过多轮、动态、具有压迫力的 Case 推演，探测你的产品专业能力边界，帮助你看清自己的能力画像，找到下一步成长路径。
 
 这个 Skill 适合用于 AI PM 转型、自我诊断、面试准备、晋升复盘、团队人才盘点，以及产品负责人对候选人的结构化能力观察。
 
 ## Why 为什么需要这个Skill
 
-AI 时代 PM 的核心竞争力已从“功能定义”转移到了可以明确指出“我们要去哪里，什么是 Perfect Answer”。能否设计出一套自带进化能力的评估体系（Evaluation-Driven Design），让产品在模型的不确定性中，通过不断的指标对齐实现价值突围。
+> “The PM is now the 'Evaluation Designer' who ensures the optimization objective matches human intent.” — Andrej Karpathy, Founding Member of OpenAI
+
+AI 时代 PM 的核心竞争力已从定义“功能”转移到了可以定义“我们要去哪里”。能否设计出一套自带进化能力的评估体系（Evaluation-Driven Design），让产品在模型的不确定性中，通过不断的指标对齐实现价值突围。
 
 因此对于产品从业者来说，能力要求的巨大变化，也带来了能力坐标系丢失。因此我们需要通过能力评估，对我们自己进行动态的能力画像，重建自己的能力发展坐标。
 
