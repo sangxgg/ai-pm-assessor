@@ -1,8 +1,8 @@
 # AI PM Assessor
 
-> An expert-style Codex Skill for diagnosing AI-era Product Manager capability.
+> 一个AI 时代产品经理能力评估 Skill
 
-AI PM Assessor 是一个面向 **AI 时代互联网产品经理** 的能力评估 Skill。它不是题库，而是模拟一位 AI 大厂产品专家与人才发展专家，通过结构化问诊、场景推演、压力追问和证据化报告，帮助产品从业者看清自己的能力画像、长板短板、胜任风险和下一步成长路径。
+AI PM Assessor 是一个面向 **AI 时代产品经理** 的能力评估 Skill。它不是题库，而是模拟 AI 大厂产品专家，通过结构化问诊、场景推演、压力追问和证据化报告，帮助产品从业者看清自己的能力画像，找到下一步成长路径。
 
 这个 Skill 适合用于 AI PM 转型、自我诊断、面试准备、晋升复盘、团队人才盘点，以及产品负责人对候选人的结构化能力观察。
 
@@ -31,7 +31,7 @@ AI PM Assessor 会按用户背景动态调整评估过程：
 
 ## Interaction Modes
 
-### A. Multiple-choice Mode
+### A. 多选题模式
 
 适合想要节奏更轻、压力更低的用户。Skill 会给出 A/B/C/D 场景选项，但不会只看选项字母。
 
@@ -43,7 +43,7 @@ AI PM Assessor 会按用户背景动态调整评估过程：
 
 这样可以避免评估变成猜题。
 
-### B. Discussion Mode
+### B. 研讨模式
 
 适合希望体验更像专家面试或能力问诊的用户。Skill 会给出开放式业务场景，并要求用户说明：
 
@@ -51,7 +51,7 @@ AI PM Assessor 会按用户背景动态调整评估过程：
 2. 优先做哪个决策，为什么
 3. 用什么指标、评测或风险兜底验证
 
-讨论过程中，Skill 会像专业面试官一样追问判断依据、加入变量扰动，并要求用户做失败复盘。
+讨论过程中，Skill 会更像专业产品专家一样追问判断依据、加入变量扰动，并要求用户做失败复盘。
 
 ## Assessment Framework
 
@@ -59,14 +59,14 @@ Skill 使用“三层八维”能力框架：
 
 | 能力簇 | 维度 | 观察重点 |
 |---|---|---|
-| 战略脑 | A. 问题定义与机会判断 | 能否从现象回到用户任务、业务约束和真实机会 |
-| 洞察眼 | B. 用户洞察与场景拆解 | 能否识别目标用户、动机、频次、替代方案和关键阻力 |
-| 工程骨 | C. AI 能力理解与产品化 | 能否理解模型边界、上下文、工具调用、幻觉、延迟、成本和评测 |
-| 洞察眼 | D. AI 原生体验与工作流设计 | 能否设计可信、可控、容错的人机协作体验 |
-| 工程骨 | E. 数据指标与实验决策 | 能否设计指标、实验、评测集、样本偏差和因果判断 |
-| 战略脑 | F. 商业化与增长策略 | 能否连接用户价值、获客、定价、留存和单位经济模型 |
-| 战略脑 | G. 优先级与资源取舍 | 能否在资源、技术风险和商业收益之间做清晰取舍 |
-| 安全盾 | H. 组织协同、伦理与风险 | 能否处理隐私、版权、合规、偏见、品牌和责任边界 |
+| 战略 | A. 问题定义与机会判断 | 能否从现象回到用户任务、业务约束和真实机会 |
+| 洞察 | B. 用户洞察与场景拆解 | 能否识别目标用户、动机、频次、替代方案和关键阻力 |
+| 工程 | C. AI 能力理解与产品化 | 能否理解模型边界、上下文、工具调用、幻觉、延迟、成本和评测 |
+| 洞察 | D. AI 原生体验与工作流设计 | 能否设计可信、可控、容错的人机协作体验 |
+| 工程 | E. 数据指标与实验决策 | 能否设计指标、实验、评测集、样本偏差和因果判断 |
+| 战略 | F. 商业化与增长策略 | 能否连接用户价值、获客、定价、留存和单位经济模型 |
+| 战略 | G. 优先级与资源取舍 | 能否在资源、技术风险和商业收益之间做清晰取舍 |
+| 安全 | H. 组织协同、伦理与风险 | 能否处理隐私、版权、合规、偏见、品牌和责任边界 |
 
 ## Expert Probing Logic
 
@@ -101,24 +101,16 @@ AI PM Assessor 的核心不是“出题”，而是“追问”。
 - 30 天提升计划
 - 高杠杆练习和下一步验证建议
 
-报告不是权威认证，而是一份基于本轮问诊证据的专家诊断。
+报告不是权威认证，而是模拟AI大厂产品专家基于问诊证据的一份评估建议。
 
-## Installation
+## 30秒安装使用
 
-将本仓库复制到你的 Codex skills 目录：
+方法1：使用 git Clone 命令行将本仓库克隆到你的 CodeX 、 Claude Code 的 skills 目录使用
+方法2：直接下载本仓库zip包到电脑本地，解压到你的 CodeX 、 Claude Code 的 skills目录使用
 
-```bash
-mkdir -p .codex/skills
-git clone https://github.com/sangxgg/ai-pm-assessor.git .codex/skills/ai-pm-assessor
-```
+具体路径取决于你电脑本地CodeX 、 Claude Code的skills路径配置。
 
-或者复制到你的全局 Codex skills 目录，路径取决于你的本地配置。
 
-安装后，在 Codex 中使用：
-
-```text
-Use $ai-pm-assessor to run an AI PM capability diagnosis.
-```
 
 ## Repository Structure
 
@@ -133,19 +125,7 @@ ai-pm-assessor/
     └── report-template.md
 ```
 
-## Design Principles
 
-- **No fixed question bank**：每次评估都根据用户背景动态生成。
-- **Evidence over vibes**：所有结论必须能回到用户回答和追问证据。
-- **Conversation over test**：默认是专家问诊，不是标准化考试。
-- **Pressure reveals judgment**：通过变量扰动和失败复盘观察稳定判断。
-- **Actionable growth**：报告必须给出具体短板和可执行提升路径。
-
-## Notes for Claude Code Users
-
-Claude Code 会展示 `Write` / `Edit` 文件操作和 diff。因此，本 Skill 默认不会在评估过程中创建或持续更新 `assessment-state.md` 这类过程文件。
-
-评估状态会在对话上下文中维护。只有当用户明确要求“保存记录”或“导出过程”时，才建议在评估结束后一次性生成文件。
 
 ## Disclaimer
 
