@@ -1,4 +1,4 @@
 interface:
   display_name: "AI PM Probe"
-  short_description: "用选择题或探讨问诊评估AI产品经理能力画像"
-  default_prompt: "Use $ai-pm-probe to run an AI big-tech expert style PM capability diagnosis. Let me choose multiple-choice or discussion mode, collect my background step by step, and produce a strengths, derailers, role-fit, and growth-plan report."
+  short_description: "用 Board Meeting 式研讨评估AI产品经理能力画像"
+  default_prompt: "Use $ai-pm-probe to run an AI big-tech expert style PM capability diagnosis. Let me choose multiple-choice or Board Meeting discussion mode, collect my background step by step, pressure-test my product decisions with JTBD reframing, trade-off extremes, evaluation loops, and post-mortems, then produce a strengths, derailers, role-fit, and growth-plan report."
