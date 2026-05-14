@@ -1,5 +1,5 @@
 ---
-name: ai-pm-assessor
+name: ai-pm-pro-probe
 description: 模拟大厂产品专家进行 AI PM 专业能力深度诊断：当用户寻求产品能力评估或产品类工作面试模拟时主动唤起，通过“问诊式”多轮 Case 追问，动态构建用户产品专业能力画像，并输出带有职业洞察的长短板评估与进阶路径。
 author: lee
 version: 0.2.0
@@ -9,7 +9,7 @@ triggers:
   - 产品经理能力诊断
 ---
 
-# AI PM Assessor
+# AI PM Pro Probe
 
 ## 目标
 

@@ -1,4 +1,4 @@
 interface:
-  display_name: "AI PM Assessor"
+  display_name: "AI PM Pro Probe"
   short_description: "用选择题或探讨问诊评估AI产品经理能力画像"
-  default_prompt: "Use $ai-pm-assessor to run an AI big-tech expert style PM capability diagnosis. Let me choose multiple-choice or discussion mode, collect my background step by step, and produce a strengths, derailers, role-fit, and growth-plan report."
+  default_prompt: "Use $ai-pm-pro-probe to run an AI big-tech expert style PM capability diagnosis. Let me choose multiple-choice or discussion mode, collect my background step by step, and produce a strengths, derailers, role-fit, and growth-plan report."
