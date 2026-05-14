@@ -146,4 +146,4 @@ AI PM Probe 不是招聘认证，也不能替代真实项目复盘、作品集�
 
 ## License
 
-No license has been specified yet.
+This project is released under the [MIT License](LICENSE).
