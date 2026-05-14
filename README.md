@@ -1,11 +1,11 @@
-# 🩺 AI PM Pro Probe
+# 🩺 AI PM Probe
 
 > 不是题库，而是能力诊断。这是一个为 AI 时代产品经理设计的“问诊式”能力诊断Skill
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Framework](https://img.shields.io/badge/Capability-3L8D-orange.svg)](#-评估框架)
 
-AI PM Pro Probe 是一个基于AI大厂专家经验的“问诊式”产品能力评估Skill。它会像一位来自 OpenAI 、字节等AI大厂的产品专家，通过多轮、动态、具有压迫力的 Case 推演，探测你的能力边界，帮助你看清自己的能力画像，找到下一步成长路径。
+AI PM Probe 是一个基于AI大厂专家经验的“问诊式”产品能力评估Skill。它会像一位来自 OpenAI 、字节等AI大厂的产品专家，通过多轮、动态、具有压迫力的 Case 推演，探测你的能力边界，帮助你看清自己的能力画像，找到下一步成长路径。
 
 这个 Skill 适合用于 AI PM 转型、自我诊断、面试准备、晋升复盘、团队人才盘点，以及产品负责人对候选人的结构化能力观察。
 
@@ -22,11 +22,11 @@ AI 产品经理的能力评估很容易滑向两种误区：
 
 真正的 AI PM 能力，体现在混乱场景下的判断：如何定义问题，如何拆用户场景，如何理解模型边界，如何设计体验和评测，如何平衡成本、延迟、合规、商业化与组织协同。
 
-AI PM Pro Probe 的目标就是把这些判断“问出来”，并形成一份可复查、可行动的能力诊断报告。
+AI PM Probe 的目标就是把这些判断“问出来”，并形成一份可复查、可行动的能力诊断报告。
 
 ## What It Does
 
-AI PM Pro Probe 会按用户背景动态调整评估过程：
+AI PM Probe 会按用户背景动态调整评估过程：
 
 - 逐步采集背景，而不是一次性抛出一串问题
 - 支持两种交互模式：选择题模式 / 探讨模式
@@ -80,7 +80,7 @@ Skill 使用“3层8维”能力框架。本能力框架 总结自 OpenAI, Anthr
 
 ## Expert Probing Logic
 
-AI PM Pro Probe 的核心不是“出题”，而是“追问”。
+AI PM Probe 的核心不是“出题”，而是“追问”。
 
 每个关键场景都可能触发三层追问：
 
@@ -125,7 +125,7 @@ AI PM Pro Probe 的核心不是“出题”，而是“追问”。
 ## Repository Structure
 
 ```text
-ai-pm-pro-probe/
+ai-pm-probe/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
@@ -139,7 +139,7 @@ ai-pm-pro-probe/
 
 ## Disclaimer
 
-AI PM Pro Probe 不是招聘认证，也不能替代真实项目复盘、作品集审查、深度面试或绩效数据。它的价值在于提供一套结构化、可复查、可行动的能力诊断方式。
+AI PM Probe 不是招聘认证，也不能替代真实项目复盘、作品集审查、深度面试或绩效数据。它的价值在于提供一套结构化、可复查、可行动的能力诊断方式。
 
 ## License
 
